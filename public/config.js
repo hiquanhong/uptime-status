@@ -2,12 +2,13 @@
 window.Config = {
 
   // 显示标题
-  SiteName: '云生站点监测',
-
+  SiteName: 'Kim',
+  
   // UptimeRobot Api Keys
   // 支持 Monitor-Specific 和 Read-Only
+  ApiDomain: 'https://mute-bonus-5f1a.aimate.workers.dev',
   ApiKeys: [
-    'ur1078385-b9802a0868414b8a975d5038',
+    'ur1501073-8b18f91551aec01224a13594',
   ],
 
     // 日志天数
@@ -21,16 +22,13 @@ window.Config = {
   // 导航栏菜单
   Navi: [
     {
-      text: '主页',
-      url: 'https://tjys.tk'
+      text: 'HomePage',
+      url: 'https://aimate.top'
     },
     {
-      text: '博客',
-      url: 'https://blog.qikaile.tk'
+      text: 'cdn',
+      url: 'https://cdn.aimate.top'
     },
-    {
-      text: 'GitHub',
-      url: 'https://github.com/qikaile/uptime-status'
-    },
+    
   ],
 };
